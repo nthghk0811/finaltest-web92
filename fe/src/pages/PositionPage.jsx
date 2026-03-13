@@ -114,7 +114,7 @@ const PositionPage = () => {
                     </div>
                     <div className="flex justify-end pt-4 border-t mt-4 gap-3">
                         <button onClick={() => setDrawerOpen(false)} className="px-4 py-2 border rounded bg-white text-sm">Hủy</button>
-                        <button onClick={handleCreate} className="bg-purple-600 text-white px-4 py-2 rounded text-sm hover:bg-purple-700 shadow-md">💾 Lưu lại</button>
+                        <button onClick={handleCreate} className="bg-purple-600 text-white px-4 py-2 rounded text-sm hover:bg-purple-700 shadow-md">Lưu lại</button>
                     </div>
                 </div>
             </Sidebar>
